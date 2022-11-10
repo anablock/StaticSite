@@ -29,15 +29,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    
     display: grid;
-    grid-template-areas:
-        'header header header'
-        'nav content sidebar'
-        'nav footer footer';
-    grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 80px 1fr 70px;
-    
     justify-content: center;
     margin: 20px;
 }
@@ -50,13 +42,11 @@ body {
 }
 
 header {
-    grid-area: header;
     width: 200px;
     justify-self: center;
 }
 
 nav {
-    grid-area: nav;
     justify-self: center;
 }
 
@@ -90,17 +80,8 @@ nav ul li a:hover {
 }
 
 main {
-    grid-area: content;
     min-width: 100%;
     justify-self: start;
-}
-
-aside {
-    grid-area: sidebar;
-}
-
-footer {
-    grid-area: footer;
 }
 
 ul {

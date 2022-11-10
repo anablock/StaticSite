@@ -56,7 +56,6 @@ header {
 }
 
 nav {
-    grid-area: nav;
     justify-self: center;
 }
 
@@ -90,17 +89,8 @@ nav ul li a:hover {
 }
 
 main {
-    grid-area: content;
     min-width: 100%;
     justify-self: start;
-}
-
-aside {
-    grid-area: sidebar;
-}
-
-footer {
-    grid-area: footer;
 }
 
 ul {
