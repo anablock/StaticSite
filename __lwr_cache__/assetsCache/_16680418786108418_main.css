@@ -5,7 +5,6 @@
     margin: 0;
 }
 
-/**
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -14,13 +13,12 @@ body {
     display: grid;
     grid-template-areas:
         'header header header'
-        'nav content content'
+        'nav content aside'
         'nav footer footer';
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 80px 1fr 70px;
     
 }
-*/
 
 header,
 footer,
